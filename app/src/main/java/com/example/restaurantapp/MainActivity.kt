@@ -73,7 +73,7 @@ fun HomeScreen() {
                     .fillMaxWidth()
                     .height(156.dp)
                     .clip(RoundedCornerShape(10.dp))
-                    .background(Yellow200)
+                    .background(Yellow200) //add material
                     .padding(24.dp)
             ) {
                 Row (
@@ -89,7 +89,7 @@ fun HomeScreen() {
                             }
 
                             withStyle(style = SpanStyle(
-                                color = Yellow500,
+                                color = Yellow500, //add material
                                 fontStyle = Typography.bodyLarge.fontStyle)) {
                                 append(" Food")
                             }
@@ -103,7 +103,7 @@ fun HomeScreen() {
                                 .clip(
                                     RoundedCornerShape(10.dp)
                                 )
-                                .background(Yellow500),
+                                .background(Yellow500), //add material
                             contentAlignment = Alignment.Center
                         ) {
                             Text(
